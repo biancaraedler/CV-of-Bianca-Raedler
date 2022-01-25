@@ -19,8 +19,18 @@ h6 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 20px;
+}
 body {
   margin: 0px;
+}
+*::selection {
+  background-color: plum;
 }
 
 /* Specific Styling */
@@ -30,6 +40,11 @@ body {
   text-align: center;
   background-color: rgb(152, 26, 202);
   color: white;
+  font-size: 2rem;
+}
+
+.laptop::after {
+  content: "💻";
 }
 
 .nav-link {
@@ -67,4 +82,7 @@ body {
 
 .main > *:first-child {
   border-top: none;
+}
+.grape::after {
+  content: "🐎";
 }
