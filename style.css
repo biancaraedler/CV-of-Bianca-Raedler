@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-* {
+html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -83,6 +83,11 @@ body {
 .main > *:first-child {
   border-top: none;
 }
-.grape::after {
-  content: "🐎";
+
+.experience-heading {
+  display: inline-block;
+}
+
+.experience-subheading {
+  display: inline-block;
 }
