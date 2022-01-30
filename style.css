@@ -8,6 +8,7 @@
 
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
 }
 
 h1,
@@ -29,11 +30,23 @@ body {
 /* Specific Styling */
 
 .header {
-  padding: 48px 16px;
+  padding: 3rem 1rem;
+  padding-top: 4.5rem;
   text-align: center;
   background-color: rgb(152, 26, 202);
   color: white;
-  font-size: 2rem;
+}
+
+.heading-group {
+  font-size: 3rem;
+}
+
+.main-heading {
+  font-size: 2em;
+}
+
+.laptop {
+  font-size: 0.3em;
 }
 
 .laptop::after {
@@ -42,16 +55,16 @@ body {
 
 .hire-me {
   position: absolute;
-  right: 16px;
-  top: 16px;
-  padding: 8px;
-  border-radius: 4px;
+  right: 1rem;
+  top: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
   background: plum;
   color: black;
 }
 
 .nav-link {
-  padding: 4px 8px;
+  padding: 0.25rem 0.5rem;
   color: white;
 }
 
@@ -66,22 +79,22 @@ body {
 }
 
 .nav-link + .nav-link {
-  margin-left: 16px;
+  margin-left: 1rem;
 }
 
 .main {
-  max-width: 800px;
+  max-width: 60ch;
   margin: 0 auto;
-  padding: 16px;
-  margin: 1rem;
+  padding: 1rem;
 }
 
 .main > * + * {
-  margin-top: 48px;
+  margin-top: 3rem;
 }
 
 .main > * {
-  border-top: 2px dotted grey;
+  border-top: 0.125rem dotted grey;
+  padding: o 1rem;
 }
 
 .main > *:first-child {
@@ -90,7 +103,7 @@ body {
 
 .article-heading {
   position: relative;
-  left: -16px;
+  left: -1rem;
 }
 .experience-heading {
   display: inline-block;
