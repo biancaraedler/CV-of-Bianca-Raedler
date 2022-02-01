@@ -150,6 +150,22 @@ body {
   border-top: none;
 }
 
+.main-article {
+  border-top: 00.125rem solid black;
+  padding: 0 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .main-article {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+  }
+
+  .main-article-content {
+    margin-top: 4rem;
+  }
+}
+
 .article-heading {
   position: relative;
   left: -1rem;
